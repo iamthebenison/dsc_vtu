@@ -6,7 +6,7 @@ export const IntroT = styled.h1`
     justify-content:flex-start;
     align-items:
     margin-top:100px;
-    padding:42px;
+    padding:282px 42px;
     font-size:5rem;
 `
 export const IntroV = styled.span`{

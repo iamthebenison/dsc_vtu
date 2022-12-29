@@ -7,9 +7,9 @@ const Intro = () => {
         <IntroT>
             GDSC <IntroV> VelTech </IntroV>
         </IntroT>
-        <IntroD>
+        {/* <IntroD>
             
-        </IntroD>
+        </IntroD> */}
     </>
   )
 }
