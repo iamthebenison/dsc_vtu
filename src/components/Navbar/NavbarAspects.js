@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
-import {Link as LinkS} from 'react-scroll';
 
 
 export const Nav = styled.nav`
     background:#EBECEC;
     margin:80px
-/*    margin-top:-80px;*/
+   margin-top:-80px;
     display:flex;
     font-size:1.1rem;
     justify-content:space-between;
@@ -46,7 +45,7 @@ export const LogoN = styled(LinkR)`
 export const MIcon = styled.div`
     display:none;
 
-    @media screen and (max-width:768px){
+    @media screen and (max-width:768px ){
         display:block;
         position:absolute;
         top:12px;
@@ -74,7 +73,7 @@ export const NItem = styled.li`
     height:80px;
 `
 
-export const LinkN = styled(LinkS)`
+export const LinkN = styled(LinkR)`
     color:#1A1A1A;
     display:flex;
     align-items:center;
@@ -87,6 +86,11 @@ export const LinkN = styled(LinkS)`
         color:#e59504;
         transition: 0.1s ease-in-out;
         border-bottom:3px solid #e59504;
+    }
+
+    &:hover{
+        color:#e59504;
+        transition: 0.1s ease-in-out;
     }
 
 `

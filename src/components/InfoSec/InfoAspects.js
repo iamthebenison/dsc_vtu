@@ -1,49 +1,50 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
-export const IntroContainer = styled.div`
+export const InfoContainer=styled.div`
     dislplay:flex;
     justify-content:flex-start;
     flex-direction:column;
     height:500px;
     max-width:1100px;
+    align-items:center;
 `
 
-export const IntroContent = styled.div`
-        height:200px;
+export const InfoContent=styled.div`
+    align-items:center
+    display:block;
+    position:absolute;
+    width: 1850px;
 `
 
-export const IntroT = styled.h1`
+export const InfoT = styled.h1`
     display:flex;
     margin-top:200px;
-    margin-left:45px;
+    margin-left:195px;
     justify-content:flex-start;
-    align-items: flex-start
-    padding: 15px;
-    font-size:5rem;
-    color:#000;
+    align-items: center;
+    padding: 0px 15px;
+    font-size:3rem;
+    color:orange;
+    width: 15%;
+    border-bottom:solid orange 3px;
+    
 
     @media screen and (max-width:768px){
-        font-size:2.5rem;
+        font-size:2rem;
     }
 
     @media screen and (max-width:468px){
-        font-size:2rem;
+        font-size:1.5rem;
     }
-`;
-
-export const IntroV = styled.span`
-    color:orange;
-    margin-left:24px;
-`;
-
-export const Des = styled.div`
+`
+export const InfoDes = styled.div`
     width:40%;
     position:absolute;
     font-size:1.3rem;
     margin-left:11px;
     padding:37px;
-    text-align:justify;
-    
+    // text-align:center;
+
     @media screen and (max-width:768px){
         font-size:1rem;
     }

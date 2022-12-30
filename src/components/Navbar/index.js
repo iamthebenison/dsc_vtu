@@ -8,18 +8,18 @@ const Navbar = ({toggle}) => {
         <Nav>
             <ContainerN>
                 <LogoN to="/"><img src={require("../../images/GLogo.png")} alt="DSCLogo" width={230} height={60}/></LogoN>
-                <MIcon onClick={toggle}>
-                    <FaBars />
+                <MIcon >
+                    <FaBars onClick={toggle}/>
                 </MIcon>
                 <MenuN>
                     <NItem>
                         <LinkN to='/team'>Team</LinkN>
                     </NItem>
                     <NItem>
-                        <LinkN to='/works'>Works</LinkN>
+                        <LinkN to='works'>Works</LinkN>
                     </NItem>
                     <NItem>
-                        <LinkN to='/events'>Events</LinkN>
+                        <LinkN to='events'>Events</LinkN>
                     </NItem>
                 </MenuN>
             </ContainerN>
